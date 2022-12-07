@@ -1,0 +1,347 @@
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	margin: 0px auto;
+	/* border: 1px solid tomato; */
+}
+.mx-20{
+	margin: 0px 20px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.section-title h2{
+	color: #00394f;
+    margin: 20px 0px 30px 0px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: Handlee, cursive;
+}
+.section-title h3{
+	color: #17a2b8;
+    font-size: 16px;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Nunito, sans-serif;
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* common code end */
+/* nav code start */
+nav{
+	background: #F8F9FA;
+}
+.nav-inner{
+	clear: both;
+	overflow: hidden;
+}
+/* logo code start */
+.nav-inner .logo{
+	/* width: 25%; */
+	height: 100%;
+	float: left;
+}
+.nav-inner .logo a{
+	color: #17a2b8;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	padding: 10px 0px;
+	display: inline-block;
+}
+.nav-inner .logo a .fa-child-reaching{
+	color: #525354;
+}
+/* logo code end */
+/* navbar code start */
+.nav-inner .navbar{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.nav-inner .navbar ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.nav-inner .navbar ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav-inner .navbar ul li a{
+	color: #00394f;
+	font-size: 16px;
+	font-weight: 800;
+	text-decoration: none;
+	margin: 0px 7px;
+	padding: 33px 10px;
+	font-family: Nunito, sans-serif;
+	transition: .5s all;
+	display: inline-block;
+}
+.nav-inner .navbar ul li a.active{
+	color: #17A2B8;
+}
+.nav-inner .navbar ul li a:hover{
+	color: #17A2B8;
+}
+/* navbar code end */
+
+/* joining-button code start */
+.nav-inner .joining-button{
+	/* width: 15%; */
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+.nav-inner .joining-button a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 22px 0px;
+	padding: 10px 20px;
+	font-family: Nunito, sans-serif;
+	transition: .5s all;
+	background: #17A2B8;
+	display: inline-block;
+	border-radius: 30px;
+}
+.nav-inner .joining-button a:hover{
+	background: #138496;
+}
+/* joining-button code end */
+/* nav code end */
+
+/* header code start */
+header{
+	background: #17A2B8;
+}
+.header-inner{
+	clear: both;
+	overflow: hidden;
+}
+/* header-content start */
+.header-content{
+	float: left;
+	width: 50%;
+	padding: 100px 0px;
+}
+.header-content h2{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 800;
+	margin: 0px;
+	font-family: Handlee, cursive;
+}
+.header-content h1{
+	color: #fff;
+	font-size: 72px;
+	line-height: 1.2;
+	font-weight: 700;
+	margin: 20px 0px;
+	font-family: Handlee, cursive;
+}
+.header-content p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+	font-family: Nunito, sans-serif;
+}
+.header-content a{
+	color: #fff;
+	background: #00394f;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Nunito, sans-serif;
+	display: inline-block;
+    padding: 10px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+	transition: .5s all;
+}
+.header-content a:hover{
+	background: #001D29;
+}
+/* header-content end */
+/* header-poster start */
+.header-poster{
+	float: left;
+	width: 50%;
+}
+.header-poster img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* header-poster end */
+/* header code end */
+
+/* class-section code start */
+.class-section{
+	padding: 80px 0px;
+}
+.class-section .section-title{
+	text-align: center;
+}
+.class-section .class-content{
+	/* clear: both;
+	overflow: hidden;
+	text-align: center; */
+	
+	display: block;
+    /* margin: 16px auto;
+    padding: 32px 20px; */
+    /* max-width: 300px; */
+    text-align: center;
+    color: #898798;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgb(95 92 120 / 12%);
+}
+.class-section .class-content .card{
+	float: left;
+	width: 31.5%;
+	height: 100%;
+	text-align: center;
+	background: #F8F9FA;
+	border-radius: 6px;
+	margin: 0px 10px;
+}
+.class-section .class-content .card img{
+	border-radius: 6px 6px 0px 0px;
+	width: 50%;
+	
+	
+}
+.class-content .card h2{
+	margin: 20px 0px 10px 0px;
+    color: #00394f;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Handlee, cursive;
+}
+.class-content .card p{
+	margin: 0px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+	padding: 0px 30px;
+    font-family: Nunito, sans-serif;
+}
+.class-content .card a{
+	margin: 0px 0px 40px 0px;
+	color: #fff;
+    background: #17a2b8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Nunito, sans-serif;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .5s all;
+	margin-top: 20px;
+}
+.class-content .card a:hover {
+    background: #138496;
+}
+.class-content .card table {
+    width: 100%;
+	border-spacing: 0px;
+	margin-top: 20px;
+	padding: 30px;
+	border-top: 1px solid #DEE2E6;
+}
+.class-content .card table th,
+.class-content .card table td{
+	color: #666;
+	font-size: 16px;
+	padding: 6px;
+	font-family: Nunito, sans-serif;
+    border-bottom: 1px solid #DEE2E6;
+}
+.class-content .card table tr:last-child th,
+.class-content .card table tr:last-child td{
+	border-bottom: 1px solid transparent;
+}
+.class-content .card table td{
+	border-left: 1px solid #DEE2E6;
+}
+/* class-section code end */
+
+
+
+
+
+
+/* features-section code start */
+.features-section{
+	padding: 80px 0px;
+}
+.features-inner{
+	clear: both;
+	overflow: hidden;
+}
+.features-block{
+	float: left;
+    height: 100%;
+	width: 32%;
+    background: #F8F9FA;
+    box-shadow: 0px 0px 5px #c2c2c2;
+    border-top: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+}
+.features-block .features-block-icon{
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+.features-block .features-block-content{
+	float: left;
+	height: 100%;
+	width: 70%;
+}
+.features-block .features-block-icon i{
+	color: #17a2b8;
+}
+.features-block .features-block-content h2{
+	margin: 0px 0px 15px 0px;
+	color: #00394f;
+	font-size: 24px;
+	font-weight: 600;
+	font-family: Handlee, cursive;
+}
+.features-block .features-block-content p{
+	margin: 0px;
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 600;
+	text-align: justify;
+	font-family: Nunito, sans-serif;;
+}
+/* features-section code end */
